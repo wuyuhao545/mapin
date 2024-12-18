@@ -1,0 +1,126 @@
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #finding img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .finding{
+    margin: 0;
+    padding: 0;
+  }
+
+  #StartScreen{
+    height: 200px;
+    width: 400px;
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+    text-align:center;
+    }
+   
+  
+   #StartButton:hover {
+     cursor:pointer;
+     background:rgb(122, 122, 132);
+   }	      
+  
+  #GameCanvas{
+    height: 200px;
+    width: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+    text-align:center;
+    }
+
+  .container {  
+    position: relative; /* 设置相对定位 */  
+    width: 1000px; /* 容器宽度 */  
+    height: 800px; /* 容器高度 */
+    /*display: none;*/
+  }            
+
+  .library{  
+    position:absolute;
+    width: 40px; /* 容器宽度 */  
+    height: 40px; /* 容器高度 */
+    top: 20%;
+    left: 100%;
+  }  
+
+  .start {  
+    position:absolute;
+    width: 40px; /* 容器宽度 */  
+    height: 40px; /* 容器高度 */
+    top: 80%;
+    left: 140%;
+  }  
+
+  .school{
+    position:absolute;
+    width: 40px; /* 容器宽度 */  
+    height: 40px; /* 容器高度 */
+    top: 60%;
+    left: 35%;
+  }
+
+  .park{
+    position:absolute;
+    width: 40px; /* 容器宽度 */  
+    height: 40px; /* 容器高度 */
+    top: 25%;
+    left: 75%;
+  }
+
+  .market{
+    position:absolute;
+    width: 40px; /* 容器宽度 */  
+    height: 40px; /* 容器高度 */
+    top: 90%;
+    left: 40%;
+  }
+
+  .write{
+    position:absolute;
+    width: 40px; /* 容器宽度 */  
+    height: 40px; /* 容器高度 */
+    top: 90%;
+    left: 40%;
+  }
+
+  .button {  
+    position: absolute;  
+    top: 50%;  
+    left: 50%;  
+    transform: translate(-50%, -50%);  
+    padding: 10px 20px;  
+    background-color: #007BFF;  
+    color: white;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+  }  
+  
+  .button:hover {  
+    background-color: #0056b3;  
+  }  
+
+  .container1 {  
+    position: relative;  
+    display: inline-block;  
+}  
